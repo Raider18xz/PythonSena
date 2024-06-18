@@ -1,0 +1,23 @@
+import periometroArea
+
+# Datos para los perímetros
+ladoCuadrado = 5
+ladoRectangulo = 4
+alturaRectangulo = 6
+ladoTriangulo1 = 3
+ladoTriangulo2 = 4
+ladoTriangulo4 = 5
+ladoRombo = 7
+
+# Calculamos los perímetros
+perimetro_cuadrado = periometroArea.perimetro_cuadrado(ladoCuadrado)
+perimetro_rectangulo = periometroArea.perimetro_rectangulo(ladoRectangulo, alturaRectangulo)
+perimetro_triangulo = periometroArea.perimetro_triangulo(ladoTriangulo1, ladoTriangulo2, ladoTriangulo4)
+perimetro_rombo = periometroArea.perimetro_rombo(ladoRombo)
+
+# Mostramos los resultados
+print("Perímetro del cuadrado:", perimetro_cuadrado)
+print("Perímetro del rectángulo:", perimetro_rectangulo)
+print("Perímetro del triángulo:", perimetro_triangulo)
+print("Perímetro del rombo:", perimetro_rombo)
+
